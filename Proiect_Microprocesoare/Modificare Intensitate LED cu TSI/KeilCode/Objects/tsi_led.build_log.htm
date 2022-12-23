@@ -1,0 +1,189 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Raluca-Ionela Costan, ATM, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.37.0.0
+Toolchain Path:  D:\armKeil\Core\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.18
+Assembler:       Armasm.exe V6.18
+Linker/Locator:  ArmLink.exe V6.18
+Library Manager: ArmAr.exe V6.18
+Hex Converter:   FromElf.exe V6.18
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      CMSIS_AGDI.dll V1.33.12.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\An4\Sem1\Microprocesoare\Proiect\TSI_PROF_MODIF_vreauFINAL - Copy\tsi_led.uvprojx
+Project File Date:  12/02/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.18', folder: 'D:\armKeil\Core\ARM\ARMCLANG\Bin'
+Build target 'Target 1'
+ControlLED.c(3): warning: In file included from...
+./ControlLED.h(3): warning: In file included from...
+./TouchCapacitiv.h(5): warning: // comments are not allowed in this language [-Wcomment]
+// Touch Sensor function prototypes
+^
+./TouchCapacitiv.h(14): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+ControlLED.c(3): warning: In file included from...
+./ControlLED.h(8): warning: // comments are not allowed in this language [-Wcomment]
+#endif // end of _LEDBLINK_H
+       ^
+ControlLED.c(4): warning: In file included from...
+./Uart.h(10): warning: // comments are not allowed in this language [-Wcomment]
+void UART0_Transmit(uint8_t data); // Functie folostia pentru a trimite un octet catre interfata UART
+                                   ^
+ControlLED.c(7): warning: // comments are not allowed in this language [-Wcomment]
+#define RED_LED_PIN (18) // PORT B , PIN 18
+                         ^
+ControlLED.c(68): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(10),   "10%",     //  90msec         10msec
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(69): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(20),   "20%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(70): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(30),   "30%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(71): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(40),   "40%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(72): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(50),   "50%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(73): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(60),   "60%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(74): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(70),   "70%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(75): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(80),   "80%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(76): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(90),   "90%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                          }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(77): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+        PWM_PERIOD_VAL, PWM_DUTY_CYCLE(100),  "100%",
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        {                                           }
+ControlLED.c(55): note: expanded from macro 'PWM_PERIOD_VAL'
+#define PWM_PERIOD_VAL ((PWM_CLOCK * PWM_PERIOD) / 1000) // PWM_PERIOD_VAL
+                       ^
+ControlLED.c(111): warning: implicit conversion loses integer precision: 'int' to 'char' [-Wimplicit-int-conversion]
+                                buf_temp[i] = new_value[i] + 48; 
+                                            ~ ~~~~~~~~~~~~~^~~~
+ControlLED.c(121): warning: implicit conversion loses integer precision: 'int' to 'uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+                        UART0_Transmit(brightness_level + 48);
+                        ~~~~~~~~~~~~~~ ~~~~~~~~~~~~~~~~~^~~~
+ControlLED.c(130): warning: implicit conversion loses integer precision: 'int' to 'char' [-Wimplicit-int-conversion]
+                                buf_temp_x[i] = new_value_x[i] + 48; 
+                                              ~ ~~~~~~~~~~~~~~~^~~~
+ControlLED.c(59): warning: padding size of 'pwm_str' with 1 byte to alignment boundary [-Wpadded]
+typedef struct
+        ^
+ControlLED.c(147): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        TPM2_MOD = LEDControl[TOTAL_BRIGHTNEES_LVLS- brightness_level].Period; // R+G
+                                                                   ~ ^~~~~~~~~~~~~~~~
+ControlLED.c(148): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        TPM0_MOD = LEDControl[TOTAL_BRIGHTNEES_LVLS - brightness_level].Period; // B
+                                                                    ~ ^~~~~~~~~~~~~~~~
+ControlLED.c(150): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        TPM2_C0V = LEDControl[TOTAL_BRIGHTNEES_LVLS-brightness_level].DutyCycle; // R
+                                                                   ~^~~~~~~~~~~~~~~~
+ControlLED.c(151): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        TPM2_C1V = LEDControl[TOTAL_BRIGHTNEES_LVLS-brightness_level].DutyCycle; // G
+                                                                   ~^~~~~~~~~~~~~~~~
+ControlLED.c(152): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        TPM0_C1V = LEDControl[TOTAL_BRIGHTNEES_LVLS-brightness_level].DutyCycle; // B
+                                                                   ~^~~~~~~~~~~~~~~~
+ControlLED.c(106): warning: mixing declarations and code is a C99 extension [-Wdeclaration-after-statement]
+                        int new_value[4];                               
+                            ^
+ControlLED.c(83): warning: function 'control_LED_brightness' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{       
+^
+26 warnings generated.
+compiling ControlLED.c...
+linking...
+Program Size: Code=1900 RO-data=224 RW-data=100 ZI-data=408  
+".\Objects\tsi_led.axf" - 0 Error(s), 26 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.Kinetis_KLxx_DFP.1.15.0.pack
+                Keil.Kinetis_KLxx_DFP.1.15.0
+                NXP Kinetis KLxx Series Device Support and Examples
+   * Component: Startup Version: 2.5.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/MKL25Z128xxx4
+  ./RTE/_Target_1
+  D:/armKeil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/armKeil/Packs/Keil/Kinetis_KLxx_DFP/1.15.0/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:2.5.0
+      Source file:   Device/Source/system_MKL25Z4.c
+      Source file:   Device/Source/ARM/startup_MKL25Z4.s
+      Include file:  Device/Source/system_MKL25Z4.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
